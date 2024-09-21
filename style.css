@@ -1,0 +1,82 @@
+*{
+    scroll-behavior: smooth;
+}
+.name{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 17px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 540;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid black 2px; */
+}
+.gallery{
+    width: 90%;
+    /* width: 900px; */
+    /* border: red solid 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
+.box{
+    display: flex;
+    width: 28%;
+    /* width: 250px; */
+    height: 430px;
+    /* border: green solid 2px; */
+    /* box-shadow: 2px 2px 7px black; */
+    border-radius: 15px;
+    /* gap: 10px; */
+    filter: grayscale(100%);
+    /* opacity: 0.8; */
+}
+.box:hover{
+    /* opacity: 1; */
+    filter:grayscale(0%) drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.6));
+    transform: scale(1.08);
+    transition: 0.2s;
+}
+#first{
+    background-image:url(denys-nevozhai-HhmCIJTLuGY-unsplash.jpg);
+
+    background-size: cover;
+}
+#second{
+    background-image:url(filip-mroz-023T4jyCRqA-unsplash.jpg) ;
+    background-size: cover;
+}
+#third{
+    background-image: url(samson-ZGjbiukp_-A-unsplash.jpg);
+    background-size: cover;
+}
+#fourth{
+    background-image: url(max-bender-VmX3vmBecFE-unsplash.jpg);
+    background-size: cover;
+}
+#fifth{
+    background-image: url(ishan-seefromthesky-6U-sSfBV-gM-unsplash.jpg);
+    background-size: cover;
+}
+#six{
+    background-image: url(ikshit-chaudhari-xg2R3X6L13U-unsplash.jpg);
+    background-size: cover;
+}
+#seven{
+    background-image: url(freestocks-gv1T8bOoAUs-unsplash.jpg);
+    background-size: cover;
+}
+#eight{
+    background-image: url(dolo-iglesias-z9z6u1rn7sY-unsplash.jpg);
+    background-size: cover;
+}
+#nine{
+    background-image: url(tom-ritson-NQCVHFagfgc-unsplash.jpg);
+    background-size: cover;
+}
